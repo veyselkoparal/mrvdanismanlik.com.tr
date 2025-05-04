@@ -1,0 +1,141 @@
+.services-page {
+  margin-top: 80px;
+}
+
+.services-header {
+  background: var(--bg-gradient);
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.services-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.services-header p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.services-container {
+  padding: 20px 0 60px;
+}
+
+.service-detail {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+  scroll-margin-top: 100px;
+}
+
+.service-detail:hover {
+  transform: translateY(-5px);
+}
+
+.service-detail-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-detail-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-right: 20px;
+  background-color: rgba(4, 53, 82, 0.1);
+  padding: 15px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.service-detail h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.service-detail-description {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 20px;
+}
+
+.service-detail-content {
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.service-detail-content h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.service-detail-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-detail-content li {
+  padding: 10px 0;
+  border-bottom: 1px dashed #e0e0e0;
+  display: flex;
+  align-items: center;
+}
+
+.service-detail-content li:last-child {
+  border-bottom: none;
+}
+
+.service-detail-content li::before {
+  content: "✓";
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .services-header {
+    padding: 40px 0;
+  }
+  
+  .services-header h1 {
+    font-size: 2.2rem;
+  }
+  
+  .service-detail {
+    padding: 20px;
+  }
+  
+  .service-detail-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .service-detail-icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .service-detail h2 {
+    font-size: 1.5rem;
+  }
+  
+  .service-detail-description {
+    font-size: 1rem;
+    padding-left: 15px;
+  }
+} 
