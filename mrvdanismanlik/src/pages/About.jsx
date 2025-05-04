@@ -61,7 +61,7 @@ const About = () => {
         <div className="container">
           <div className="about-story">
             <div className="about-story-image">
-              <img src="/src/assets/images/about-image.jpg" alt="MRV Mali Danışmanlık" />
+              <img src="about-image.jpg" alt="MRV Mali Danışmanlık" />
             </div>
             <div className="about-story-content">
               <h2 className="section-title">Hikayemiz</h2>

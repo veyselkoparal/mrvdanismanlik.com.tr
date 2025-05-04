@@ -124,7 +124,7 @@ const Home = () => {
               </div>
             </div>
             <div className="about-image">
-              <img src="/src/assets/images/about-image.jpg" alt="MRV Mali Danışmanlık" />
+              <img src="about-image.jpg" alt="MRV Mali Danışmanlık" />
             </div>
           </div>
         </div>

@@ -46,7 +46,7 @@ const Footer = () => {
               <ul className="contact-info">
                 <li><FaMapMarkerAlt /> <span>Adres Caddesi, No:123, Kat:4, Şişli/İstanbul</span></li>
                 <li><FaPhone /> <span>+90 (212) 123 45 67</span></li>
-                <li><FaEnvelope /> <span>info@mrvdanismanlik.com.tr</span></li>
+                <li><FaEnvelope /> <span>bilgi@mrvdanismanlik.com.tr</span></li>
               </ul>
             </div>
           </div>
