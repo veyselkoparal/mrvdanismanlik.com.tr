@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
               <div className="contact-text">
                 <h3>E-posta</h3>
-                <p>bilgi@mrvdanismanlik.com</p>
+                <p>bilgi@mrvdanismanlik.com.tr</p>
               </div>
             </div>
             

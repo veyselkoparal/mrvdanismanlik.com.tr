@@ -14,10 +14,10 @@ const Footer = () => {
               <h3 className="footer-title">MRV Mali Danışmanlık</h3>
               <p>Girişimcilerden KOBİ'lere, büyük ölçekli işletmelerden yatırımcılara kadar geniş bir yelpazede profesyonel danışmanlık hizmetleri sunuyoruz.</p>
               <div className="social-icons">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                <a href="https://www.facebook.com/profile.php?id=100077636777740" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+                <a href="https://x.com/mervecitil02" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                <a href="https://www.instagram.com/mrvmalidanismanlik" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="https://www.linkedin.com/in/merve-%C3%A7itil-627428253/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
               </div>
             </div>
 
@@ -44,8 +44,8 @@ const Footer = () => {
             <div className="footer-section">
               <h3 className="footer-title">İletişim</h3>
               <ul className="contact-info">
-                <li><FaMapMarkerAlt /> <span>Adres Caddesi, No:123, Kat:4, Şişli/İstanbul</span></li>
-                <li><FaPhone /> <span>+90 (212) 123 45 67</span></li>
+                <li><FaMapMarkerAlt /> <span>Hocaömer Mah, Gölbaşı Cad. No:30 Kat: 1 Daire 2 Merkez / Adıyaman</span></li>
+                <li><FaPhone /> <span>+90 (552) 227 73 59</span></li>
                 <li><FaEnvelope /> <span>bilgi@mrvdanismanlik.com.tr</span></li>
               </ul>
             </div>

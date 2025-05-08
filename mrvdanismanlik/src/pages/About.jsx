@@ -66,7 +66,7 @@ const About = () => {
             <div className="about-story-content">
               <h2 className="section-title">Hikayemiz</h2>
               <p>
-                MRV Mali Danışmanlık, 2010 yılında kurulmuş olup, KOBİ'lerin ve girişimcilerin finansal kaynaklara erişimini
+                MRV Mali Danışmanlık, 2025 yılında kurulmuş olup, KOBİ'lerin ve girişimcilerin finansal kaynaklara erişimini
                 kolaylaştırmak ve devlet desteklerinden en verimli şekilde faydalanmalarını sağlamak amacıyla hizmet vermektedir.
               </p>
               <p>
